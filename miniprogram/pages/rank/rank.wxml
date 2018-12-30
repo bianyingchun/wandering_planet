@@ -1,0 +1,10 @@
+<!--miniprogram/pages/rank/rank.wxml-->
+<tab-list list="{{['全国排行','我的排行']}}">
+  <view slot="content_0">
+    <rank-list list="{{top_rank_list}}"></rank-list>
+  </view>
+  <view slot="content_1">
+    <rank-list list="{{user_rank_list}}"></rank-list>
+  </view>
+</tab-list>
+<button type="primary" bindtap="add_record">添加记录</button>

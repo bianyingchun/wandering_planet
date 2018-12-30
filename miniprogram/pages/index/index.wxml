@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container" style="">
+  <progress-bar progress="{{progress}}"></progress-bar>
+  <view wx:if="{{count_down<=10}}">倒计时{{count_down}}</view>
+  <view class="result">您已点亮 <text class="num">{{num}}</text> 座行星发动机</view>
+  <image src="../../images/ligten_btn.jpg" class='ligten_btn' mode="aspectFit" bindtap="on_lighten_up"></image>
+  <view class="tip"></view>
+  <button open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo">微信登录</button>
+</view>

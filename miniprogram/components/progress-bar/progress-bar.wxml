@@ -1,0 +1,6 @@
+<!--components/progress-bar.wxml-->
+  <view class='progress_bar'>
+    <view class="progress_bar_wraper {{progress<0.333? 'warning':''}}" style="width:{{progress*100}}%">
+      <view class='progress_average'></view>
+    </view>
+  </view>

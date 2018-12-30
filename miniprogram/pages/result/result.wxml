@@ -1,0 +1,6 @@
+<view class="title">
+  太棒了，您是第{{serial_num}}位点亮的人，成功点亮{{num}}座，目前排名{{rank}}
+</view>
+<navigator url="">查看排行榜</navigator>
+<navigator url="">再次挑战</navigator>
+<button type="primary"  open-type="share">邀请朋友为我点亮更多发动机</button>

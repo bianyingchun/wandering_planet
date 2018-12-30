@@ -1,0 +1,24 @@
+/**index.wxss**/
+:host{
+  width:100%;
+  height: 100%
+}
+
+.container{
+  width:100%;
+  height: 100%;
+  background: #000;
+  color: #fcfcfc;
+}
+
+.result{
+
+}
+.ligten_btn{
+  width:200rpx;
+  height: 200rpx;
+  position: fixed;
+  bottom: 40rpx;
+}
+
+

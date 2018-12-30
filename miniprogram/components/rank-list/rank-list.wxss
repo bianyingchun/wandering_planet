@@ -1,0 +1,37 @@
+/* components/rank-list/rank-list.wxss */
+:host{
+  width:100%;
+}
+.list_header{
+
+}
+.list_content{
+
+}
+.rank_item, .list_header{
+  height: 80rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top{
+  color: orange;
+}
+.rank_item .td{
+  width:30%;
+  text-align: center;
+  font-size:32rpx;
+}
+.rank_item .userinfo{
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+.rank_item .avatar{
+  width:60rpx;
+  height: 60rpx;
+  border-radius:30rpx;
+  border:1rpx solid #ccc;
+  margin-right: 10rpx
+}

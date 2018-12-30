@@ -1,0 +1,12 @@
+/* components/tab-list/tab-list.wxss */
+:host{
+  width:100%;
+}
+.tab_header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.active{
+  color: orange
+}

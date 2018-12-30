@@ -1,0 +1,16 @@
+<!--components/rank-list/rank-list.wxml-->
+<view class="list_header">
+  <view>排名</view>
+  <view>用户</view>
+  <view>分数</view>
+</view>
+<view class='list_content'>
+  <view class="rank_item" wx:for="{{list}}" wx:key="{{index}}">
+    <view class='td rank'> {{item.rank}}</view>
+    <view class="td userinfo">
+      <image src="{{item.avatarUrl}}" class="avatar"></image>
+      <view class="nickname">{{item.nickName}}</view>
+    </view>
+    <view class="td score">{{item.score}}</view>
+  </view>
+</view>

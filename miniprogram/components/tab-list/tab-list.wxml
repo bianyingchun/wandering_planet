@@ -1,0 +1,7 @@
+<!--components/tab-list/tab-list.wxml-->
+<view class="tab_header">
+  <view class="header_item {{current_index === index ? 'active':''}}" wx:for="{{list}}" wx:key="{{index}}" bindtap="toggle_content" data-index="{{index}}">{{item}}</view>
+</view>
+<view class="tab-content">
+    <slot name="content_{{current_index}}"></slot>
+</view>

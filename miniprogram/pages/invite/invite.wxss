@@ -1,0 +1,9 @@
+/* miniprogram/pages/invite/invite.wxss */
+:host{
+  padding: 40rpx;
+  line-height: 1.8;
+}
+.call{
+  color: red
+}
+

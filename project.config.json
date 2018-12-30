@@ -1,0 +1,54 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx28898ad54add6862",
+	"projectname": "demo1",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "bian",
+					"pathName": "pages/invite/invite",
+					"query": "from_id=XCiIzt7E7L4wAwXA&score=815&rank=6&serial_num=2345",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群3",
+						"shareName": "MV4h21xhCNr6ZSvI93EzeNHTHCgl-SrfGWLVClX3rC4@cr4dev",
+						"shareKey": "_MsJMWLS84DSbLyREXd59L2tuVC4tUsre1uL-3X2dTQPfeMaPwmw4luMB3h3n4z7s546LMWuYhGLesyiwAXaqQ~~"
+					}
+				}
+			]
+		}
+	}
+}

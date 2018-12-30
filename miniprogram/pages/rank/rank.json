@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+  "tab-list":"../../components/tab-list/tab-list",
+  "rank-list":"../../components/rank-list/rank-list"
+  }
+}

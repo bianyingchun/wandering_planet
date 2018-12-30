@@ -1,0 +1,16 @@
+<!--miniprogram/pages/invite/invite.wxml-->
+<view class="title">
+  <view>紧随刘慈欣</view>
+  <view>我是第{{serial_num}}位点亮的人，成功点亮{{score}}座，目前排名{{rank}}</view>
+  <view>排名前五 可获得</view>
+  <view>行星发动机模型和流浪地球电影票</view>
+</view>
+<view class='invited'>
+  <view class='call'>快来帮我点亮更多行星发动机吧</view>
+  <button bindtap="onhelp" wx:if="{{!helped}}" type="primary">帮他点亮50盏灯</button>
+  <button wx:else>您已经帮他点亮五十盏灯了</button>
+  <button type="primary">我也要点亮自己的行星发动机</button>
+  <button type="primary">分享</button>
+</view>
+  <button></button>
+

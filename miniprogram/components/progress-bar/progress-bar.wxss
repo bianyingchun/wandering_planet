@@ -1,0 +1,37 @@
+/* components/progress-bar.wxss */
+:host{
+  width:100%;
+}
+
+.progress_bar{
+  width:600rpx;
+  height: 40rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  background: #464b54;
+}
+.progress_bar_wraper{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(0, 159, 250) ,rgb(23, 50, 119));
+}
+.progress_average{
+  width:100%;
+  animation: progress 1s linear infinite;
+  background-repeat: repeat-x;
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    box-shadow: inset 0px 0px 6px 2px rgba(255,255,255,.3);
+    height:100%;
+}
+
+@keyframes progress{
+  100% {
+    background-position: 30px 0;
+  }
+}
+
+.warning{
+  background: linear-gradient(to right,  red, #7e0404);
+}
